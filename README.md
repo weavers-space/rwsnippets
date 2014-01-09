@@ -26,6 +26,13 @@ Now enjoy all of your snippets!
 **Warning**: Its probably best, not to add your own snippets directly into this shared repository. CodeBox makes it easy to create multiple snippet libraries. Check out the section below on contributing if you would like to help contribute. 
 
 
+### How to update the library with the latest changes
+
+Open up Github.app and click the `Sync` button in the *rwsinppets* repository. This will download the latest version of the snippet library. 
+
+Reopen CodeBox and you should have the latest and greatest snippets. 
+
+
 ### Want to contribute?
 
 The more people that contribute to this project, the more powerful and useful it will be for everyone. There are a few ways that you can contribute. 
