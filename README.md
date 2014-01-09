@@ -17,7 +17,7 @@ CodeBox does cost $9.99. After reviewing many snippet managers, CodeBox was the 
 
 ### How to get the snippets library
 
-After you download and install the GitHub for Mac application, simply click on the `Clone in Desktop` button on the right sidebar of this page. The repository will be opened in GitHub.app and prompt you to save the files locally. 
+After you download and install the GitHub for Mac application, you will need to launch the app and go through the setup process. Then simply click on the `Clone in Desktop` button on the right sidebar of this page. The repository will be opened in GitHub.app and prompt you to save the files locally. 
 
 Now you just need to open the `RapidWeaverSnippets.cbxml` file from teh saved repository and it will open inside CodeBox. 
 
