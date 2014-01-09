@@ -1072,22 +1072,6 @@ b24oKSB7CiAgICAkanEoJyNqY29ybmVyQmlnJykuYWRkQ2xhc3MoJ2V4cG9zZV9pZCcpOwp9KTs=
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z290"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
-    <object type="ASSET" id="z294">
-        <attribute name="sort" type="int32">-1</attribute>
-        <attribute name="path" type="string">Asset.css</attribute>
-        <attribute name="content" type="binary">IyVpZCUgaW1nW3NyYyo9IllIU3RhY2tzS2l0LmZyYW1ld29yay9SZXNvdXJjZXMvZG93bl9hcnJv
-dy5wbmciXXsgd2lkdGg6YXV0byAhaW1wb3J0YW50OyB9Cg==
-</attribute>
-        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z295"></relationship>
-    </object>
-    <object type="SNIPPET" id="z295">
-        <attribute name="name" type="string">Stack Edit Mode CSS to fix HUGE arrow</attribute>
-        <attribute name="modified" type="date">383082702.35774797201156616211</attribute>
-        <attribute name="locked" type="bool">0</attribute>
-        <relationship name="list" type="1/1" destination="LIST" idrefs="z356"></relationship>
-        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z294"></relationship>
-        <relationship name="tags" type="0/0" destination="TAG"></relationship>
-    </object>
     <object type="TAG" id="z296">
         <attribute name="name" type="string">Gyro</attribute>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z300"></relationship>
@@ -1288,7 +1272,7 @@ YXJnZXQgYSBzcGVjaWZpYyBoZWFkZXIgbnVtYmVyCgovLyBUYXJnZXRzIHRoZSAybmQgaGVhZGVyCi5z
         <attribute name="name" type="string">General</attribute>
         <attribute name="expanded" type="bool">1</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z356 z380 z146 z378 z386 z212 z381"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z380 z146 z378 z386 z212 z381"></relationship>
     </object>
     <object type="LIST" id="z350">
         <attribute name="sort" type="int16">2</attribute>
@@ -1332,14 +1316,6 @@ YXJnZXQgYSBzcGVjaWZpYyBoZWFkZXIgbnVtYmVyCgovLyBUYXJnZXRzIHRoZSAybmQgaGVhZGVyCi5z
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z348"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z260"></relationship>
-    </object>
-    <object type="LIST" id="z356">
-        <attribute name="sort" type="int16">6</attribute>
-        <attribute name="name" type="string">Stacks Dev</attribute>
-        <attribute name="expanded" type="bool">0</attribute>
-        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z349"></relationship>
-        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z295"></relationship>
     </object>
     <object type="LIST" id="z357">
         <attribute name="sort" type="int16">10</attribute>
