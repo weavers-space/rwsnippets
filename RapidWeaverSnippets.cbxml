@@ -1232,7 +1232,7 @@ ckFnZW50LnRvTG93ZXJDYXNlKCk7Cgl2YXIgbW9iaWxlID0gZGV2aWNlLm1hdGNoKC8oaXBob25lfGlw
         <attribute name="name" type="string">Hex to RGB</attribute>
         <attribute name="modified" type="date">400184684.76203000545501708984</attribute>
         <attribute name="locked" type="bool">0</attribute>
-        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z380"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z338"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
@@ -1506,7 +1506,7 @@ YXJnZXQgYSBzcGVjaWZpYyBoZWFkZXIgbnVtYmVyCgovLyBUYXJnZXRzIHRoZSAybmQgaGVhZGVyCi5z
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z349"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z337"></relationship>
     </object>
     <object type="LIST" id="z381">
         <attribute name="sort" type="int16">2</attribute>
