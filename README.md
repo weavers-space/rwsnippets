@@ -12,7 +12,7 @@ There are two apps that you need to download in order to access and use these sn
 * [GitHub for Mac](http://mac.github.com)
 * [CodeBox Snippets Manager](https://itunes.apple.com/us/app/codebox/id412536790?mt=12&uo=4&at=11l8IQ)
 
-If you already use another git app or are a command-line geek, you do not need to use the GitHub.app. I recommend it because its free and integrats direclty with your github.com account.
+If you already use another git app or are a command-line geek, you do not need to use the GitHub.app. I recommend it because its free and integrats direclty with your github.com account. If you want to learn more about using GitHub for Mac, check out their [online manual](http://mac.github.com/help.html). 
 
 CodeBox does cost $9.99. After reviewing many snippet managers, CodeBox was the best suited for this project. CodeBox saves the library as a XML file which makes it very compatable with version control systems like GitHub. This is a requirement. If you want to access this snippets collection, you will need to purchase CodeBox. 
 
