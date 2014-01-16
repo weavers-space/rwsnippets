@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>3603C5E1-A501-49AE-8046-CE9FABE51428</UUID>
-        <nextObjectID>423</nextObjectID>
+        <nextObjectID>427</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -1307,7 +1307,7 @@ YXJnZXQgYSBzcGVjaWZpYyBoZWFkZXIgbnVtYmVyCgovLyBUYXJnZXRzIHRoZSAybmQgaGVhZGVyCi5z
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z348"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z347"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z425 z347"></relationship>
     </object>
     <object type="LIST" id="z355">
         <attribute name="sort" type="int16">7</attribute>
@@ -1853,5 +1853,30 @@ YXRlZ29yeTEnLCcxJyx0cnVlKSApOwoKLyoKLSBBZGp1c3QgImNhdGVnb3J5MSIgd2l0aCB0aGUgbmFt
         <relationship name="list" type="1/1" destination="LIST" idrefs="z421"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z422"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="ASSET" id="z424">
+        <attribute name="content" type="binary">Ly8gV2FudCB0byBnZXQgcmlkIG9mIHRoZSBhcnJvd3Mgb24gdGhlIGZhciByaWdodCBzaWRlIG9m
+IFNxdWVlemVCb3gsIGFkZCB0aGlzIGNvZGUgdG8gdGhlIFBhZ2UgSW5zcGVjdG9yCgouc2ItYXJyb3cge2Rpc3BsYXk6IG5vbmUgIWltcG9ydGFudDt9
+</attribute>
+        <attribute name="sort" type="int32">0</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z425"></relationship>
+    </object>
+    <object type="SNIPPET" id="z425">
+        <attribute name="name" type="string">SqueezeBox - Hide the Arrows</attribute>
+        <attribute name="modified" type="date">411536169.44583201408386230469</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z354"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z424"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG" idrefs="z427"></relationship>
+    </object>
+    <object type="ASSET" id="z426">
+        <attribute name="sort" type="int32">1</attribute>
+        <attribute name="path" type="string">Asset.txt</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z427">
+        <attribute name="name" type="string">.css</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z425"></relationship>
     </object>
 </database>
