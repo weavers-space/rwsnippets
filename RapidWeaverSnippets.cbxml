@@ -885,7 +885,7 @@ I3RpcHRpcF9ob2xkZXIgeyB6LWluZGV4OiAxMDAwMTsgfQ==
         <attribute name="name" type="string">Suppress PHP warnings</attribute>
         <attribute name="modified" type="date">365354294.78350800275802612305</attribute>
         <attribute name="locked" type="bool">0</attribute>
-        <relationship name="list" type="1/1" destination="LIST"></relationship>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z378"></relationship>
         <relationship name="assets" type="0/0" destination="ASSET" idrefs="z267"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
@@ -1491,7 +1491,7 @@ YXJnZXQgYSBzcGVjaWZpYyBoZWFkZXIgbnVtYmVyCgovLyBUYXJnZXRzIHRoZSAybmQgaGVhZGVyCi5z
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z349"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z248 z162 z147"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z162 z147 z248 z266"></relationship>
     </object>
     <object type="FOLDER" id="z379">
         <attribute name="sort" type="int16">5</attribute>
