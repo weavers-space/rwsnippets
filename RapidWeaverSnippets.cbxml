@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>3603C5E1-A501-49AE-8046-CE9FABE51428</UUID>
-        <nextObjectID>437</nextObjectID>
+        <nextObjectID>439</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -1443,7 +1443,7 @@ YXJnZXQgYSBzcGVjaWZpYyBoZWFkZXIgbnVtYmVyCgovLyBUYXJnZXRzIHRoZSAybmQgaGVhZGVyCi5z
         <attribute name="expanded" type="bool">0</attribute>
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z348"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z183"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z439 z183"></relationship>
     </object>
     <object type="LIST" id="z373">
         <attribute name="sort" type="int16">7</attribute>
@@ -1952,5 +1952,21 @@ b3JkZXIgZm9yIEZvcm1sb29tIHRvIHdvcmsKaGVhZGVyKCJMYXN0LU1vZGlmaWVkOiAiIC4gZ21kYXRl
         <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z348"></relationship>
         <relationship name="children" type="0/0" destination="FOLDER"></relationship>
         <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z436"></relationship>
+    </object>
+    <object type="ASSET" id="z438">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">Asset.css</attribute>
+        <attribute name="content" type="binary">Ly8gSXRzIG5vdCByZWNvbW1lbmRlZCB0byBoYXZlIGEgc2xpZGVyIGluc2lkZSBhIGxpZ2h0Ym94
+LiAKLy8gQnV0IGlmIHlvdSByZWFsbHkgd2FudCB0by4uLiAKLy8geW91IG1heSBuZWVkIHRvIHR3ZWFrIHRoZSBudW1iZXJzIGJhc2VkIG9uIHlvdXIgc2V0dXAKLmxzLW5hdiB1bHt3aWR0aDo0MjVweCFpbXBvcnRhbnQ7fQoubHMtbmF2IGF7aGVpZ2h0OjMwcHghaW1wb3J0YW50O30=
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z439"></relationship>
+    </object>
+    <object type="SNIPPET" id="z439">
+        <attribute name="name" type="string">Tabulous inside an Expose</attribute>
+        <attribute name="modified" type="date">414094381.88674402236938476562</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z372"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z438"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
