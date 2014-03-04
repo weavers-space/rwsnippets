@@ -1543,8 +1543,8 @@ IGx0LWllOSBsdC1pZTggbHQtaWU3Ij4gPCFbZW5kaWZdLS0+CjwhLS1baWYgSUUgN10+ICAgICAgICAg
     <object type="ASSET" id="z385">
         <attribute name="sort" type="int32">-1</attribute>
         <attribute name="path" type="string">robots.txt</attribute>
-        <attribute name="content" type="binary">IyByb2JvdHN0eHQub3JnLwoKVXNlci1hZ2VudDogKgpEaXNhbGxvdzogL3RtcC8KRGlzYWxsb3c6
-IC9qdW5rLw==
+        <attribute name="content" type="binary">IyByb2JvdHN0eHQub3JnLwoKU2l0ZW1hcDogaHR0cDovL2RvY3Muam9ld29ya21hbi5uZXQvc2l0
+ZW1hcAoKVXNlci1hZ2VudDogKgpEaXNhbGxvdzogL3RtcC8KRGlzYWxsb3c6IC9qdW5rLw==
 </attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z384"></relationship>
     </object>
